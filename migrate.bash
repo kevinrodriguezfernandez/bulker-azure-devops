@@ -21,7 +21,7 @@ do
     # Replace spaces with % in the repository name
     repo_name=$(echo "$repository" | sed 's/ /%20/g')
 
-    # Clone the repository
+    # Clone the repository.
     #echo "Cloning repository $repository"
     git clone "$clone_url" "$repository"
     echo $repository
