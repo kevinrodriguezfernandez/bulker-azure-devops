@@ -17,7 +17,7 @@ for repository in $repositories
 do
     # Define the clone URL for the repository
     clone_url="$org_our/$project_name/_git/$repository"
-    #/Lab%20and%20PoC/_git/INNO.SlideAndFly
+    
     # Replace spaces with % in the repository name
     repo_name=$(echo "$repository" | sed 's/ /%20/g')
 
